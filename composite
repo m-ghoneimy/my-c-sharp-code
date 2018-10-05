@@ -1,0 +1,19 @@
+class Room
+{
+	Wall w1;
+
+	public Wall W1
+	{
+		get
+		{
+			return w1;
+		}
+		set
+		{
+			if (value != null)
+			{
+				w1 = value;
+			}
+		}
+	}
+}
