@@ -1,0 +1,29 @@
+//example 1
+public Point(double _x, double _y)
+{
+	this.x = _x;
+	this.y = _y;
+}
+
+public Point(double no) : this(no, no)
+{
+}
+
+public Point() : this(0, 0)
+{
+}
+
+//example 2
+public Point(double _x, double _y)
+{
+	this.x = _x;
+	this.y = _y;
+}
+
+public Point(double no) : this(no, no)
+{
+}
+
+public Point() : this(0)
+{
+}
