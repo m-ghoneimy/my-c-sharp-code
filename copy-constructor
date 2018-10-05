@@ -1,0 +1,23 @@
+public Wall(Wall w)
+{
+	width = w.width;
+	height = w.height;
+	thickness = w.thickness;
+}
+
+//or
+public Wall(Wall w) : this(w.width, w.height, w.thickness)
+{
+}
+
+//or
+public Wall Clone()
+{
+	return new Wall(this);
+}
+
+//in main
+Wall w1 = new Wall(5, 10);
+Wall w2 = w1; //same object has two references
+Wall w2 = new Wall(w1); //independent copy
+Wall w2 = w1.Clone(); //independent copy
