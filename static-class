@@ -1,0 +1,10 @@
+/* is the class that cannot be inherited nor instantiated */
+/* the Math class in c# is an example */
+static class Demo
+{
+	//fields, properties, and methods here have to be static
+}
+
+//in main
+Demo.Someprop;
+Demo.Somemethod();
