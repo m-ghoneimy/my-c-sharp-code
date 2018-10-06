@@ -1,0 +1,11 @@
+/* is the class that can be instantiated but cannot be inherited */
+public sealed class
+{
+	//
+}
+
+/* is the class that can be inherited but cannot be instantiated */
+public abstract class
+{
+	//
+}
