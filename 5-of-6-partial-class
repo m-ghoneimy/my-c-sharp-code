@@ -1,0 +1,12 @@
+/* the class is in two or more files */
+//in file1.cs
+class Demo
+{
+	//
+}
+
+//in file2.cs
+partial class Demo
+{
+	//
+}
