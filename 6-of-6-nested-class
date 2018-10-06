@@ -1,1 +1,11 @@
 /* is a class inside a class (sometimes called inner too) */
+class BMWFactory
+{
+	public class Car
+	{
+		//
+	}
+}
+
+//in main
+BMWFactory.Car c1 = new BMWFactory.Car();
