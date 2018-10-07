@@ -1,2 +1,10 @@
 /* the general class may be called concrete */
 /* it can be instantiated and inherited */
+class Demo
+{
+	private int x; //seen inside the class only (this is the default)
+	protected int y; //seen inside the class and the child classes (sub-classes)
+	public int z; //seen everywhere in the project
+	
+	/* same access modifiers for properties and methods */
+}
