@@ -21,3 +21,13 @@ class Child : Parent
 		//
 	}
 }
+
+//in main
+Parent p1 = new Parent();
+Child c1 = new Child();
+Parent p2 = new Child(); //this is implicitly valid
+Child c2 = (Child)p1; //this is explicitly valid but implicitly invalid
+
+//notes
+//the class "Object" is the parent of all classes in c# and can point to any of them
+//for overriding the parent foo add "virtual" in the parent and "override" in the child instead of "new"
