@@ -1,7 +1,23 @@
 class Parent
-{	
+{
+	public void Foo()
+	{
+		//
+	}
 }
 
 class Child : Parent
 {
+	/* for hiding the parent foo, add "new" in the child foo */
+	public new void Foo()
+	{
+		//
+	}
+	
+	/* for adding to the parent foo, add "new" and "base.foo()" in the child foo */
+	public new void Foo()
+	{
+		base.Foo();
+		//
+	}
 }
