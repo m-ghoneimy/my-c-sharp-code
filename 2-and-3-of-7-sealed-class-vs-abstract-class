@@ -8,4 +8,11 @@ public sealed class
 public abstract class
 {
 	//
+	
+	public abstract void Foo();
 }
+
+//note
+//abstract class can contain abstract function as in example
+//this function is to be implemented in the child class
+//abstract function exists only in abstract class
