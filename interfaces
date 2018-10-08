@@ -16,3 +16,5 @@ class Demo : IMovable
 		//
 	}
 }
+
+//for multiple interfaces use ","
