@@ -1,0 +1,18 @@
+//interface does not contain fields
+//interface functions are always public and abstract
+interface IMovable
+{
+	void Fore();
+	void Back();
+	void Right();
+	void Left();
+}
+
+//for a class that implements the interface
+class Demo : IMovable
+{
+	void Fore()
+	{
+		//
+	}
+}
