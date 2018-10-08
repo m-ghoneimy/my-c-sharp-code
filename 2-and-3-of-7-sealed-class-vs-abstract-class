@@ -14,5 +14,5 @@ public abstract class
 
 //note
 //abstract class can contain abstract function as in example
-//this function is to be implemented in the child class
+//this function is to be implemented (with adding "override") in the child class
 //abstract function exists only in abstract class
