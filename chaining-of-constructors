@@ -27,3 +27,6 @@ public Point(double no) : this(no, no)
 public Point() : this(0)
 {
 }
+
+//note
+//chaining from child constructor to parent constrauctor can be done using "base" instead of "this"
