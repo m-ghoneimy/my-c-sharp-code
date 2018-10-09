@@ -1,0 +1,26 @@
+//add references "System.Windows.Forms" and "System.Drawing"
+Using System.Windows.Forms;
+Using System.Drawing;
+
+//in main function
+Form f = new Form();
+f.Show();
+//or
+f.ShowDialog();
+
+//we can inherit form Form
+class MyForm : Form
+{
+	Button b;
+	TextBox t;
+	
+	public MyForm();
+	{
+		b = new Button();
+		b.Text = "OK";
+		b.Location = new Point(10, 10);
+		Controls.Add(b);
+		
+		t = new TextBox();
+	}
+}
